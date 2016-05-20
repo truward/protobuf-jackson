@@ -22,3 +22,17 @@ Add to dependencies in your ``pom.xml``
   <version>1.0.0</version>
 </dependency>
 ```
+
+Then in java code:
+
+```java
+// serialization
+try (JsonGenerator jg = jsonGenerator($yourOutputStream)) {
+  ProtobufJacksonUtil.writeJson($yourProtobufInstance, jg);
+}
+
+// deserialization
+try (JsonParser jp = jsonParser($yourInputStream)) {
+  ProtobufJacksonUtil.readJson($YourProtobufModel.class, jp);
+}
+```
