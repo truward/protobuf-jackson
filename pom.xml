@@ -4,7 +4,7 @@
 
   <groupId>com.truward.protobuf</groupId>
   <artifactId>protobuf-jackson</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Protobuf Jackson</name>
   <url>https://github.com/truward/protobuf-jackson</url>
@@ -22,7 +22,7 @@
     <url>https://github.com/truward/protobuf-jackson</url>
     <developerConnection>scm:git:git@github.com:truward/protobuf-jackson.git</developerConnection>
     <connection>scm:git:git@github.com:truward/protobuf-jackson.git</connection>
-    <tag>protobuf-jackson-1.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
